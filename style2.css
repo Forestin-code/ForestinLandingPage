@@ -160,6 +160,15 @@ h1
 
 }
 
+.subtitle403
+{
+    font-family: "Poppins"; 
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+   text-align: center;
+
+}
 
 .section1 li {
     display: inline;
