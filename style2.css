@@ -1,4 +1,58 @@
-*
+*{margin: 0; padding: 0;}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
+
+/* 공통 속성 */
+body{font-family: 'IBM Plex Sans KR', sans-serif;}
+h1{font-size: 50px;}
+h2{font-size: 40px;}
+h3{font-size: 20px;}
+p{font-size: 23px;}
+a{text-decoration: none;}
+.container{width: 1080px; margin: 0 auto;}
+
+/* header 속성 */
+#header{width: 100%; padding-top: 20px; background: #F7FFF7;}
+#header .container{padding: 0 10px;}
+#header img{height: 28px;}
+
+/* green 속성 */
+.green{width: 100%; padding: 60px 0; background: #F7FFF7;}
+.main{width: 100%; padding-bottom: 0; background: #F7FFF7;}
+.green>.container{display: flex; position: relative;}
+.green img{width: 400px; margin: 0 40px;}
+.green .text-box{position: absolute; top: 20%; left: 50%;}
+.green .text-box .title{margin-bottom: 30px;}
+.green .text-box .main-title{margin-bottom: 30px;}
+.green .text-box h1{color: #59C25E;}
+.green .text-box .title h2:nth-child(2){color: #59C25E;}
+.green .text-box > .download{display: flex; align-items: center;}
+.green .text-box > .download > a > img{margin: 20px 0; width: 200px;}
+.green .text-box > .download > a > img.google{width: 235px; margin-left: 3px;}
+
+/* white 속성 */
+.white{width: 100%; padding: 60px 0; background: #fff;}
+.white>.container{display: flex; justify-content: center; align-items: center;}
+.white img{width: 400px; margin: 0 75px;}
+.white .text-box .title{margin-bottom: 30px;}
+.white .text-box h2:nth-child(2){color: #59C25E;}
+.white.end{padding-bottom: 0;}
+
+/* footer 속성 */
+#footer{width: 100%; padding: 40px 0 60px 0; background: #000; color: #fff;}
+#footer h2{vertical-align: middle; overflow: hidden;}
+#footer .image_area{display: inline-block; vertical-align: middle;}
+#footer img{width: 40px; margin-right: 14px;}
+#footer h2>a>span{display: inline-block; height: 40px; font-size: 30px;}
+#footer i{color: #fff;}
+#footer .category{margin: 16px 0; display: flex;}
+#footer .category li{list-style: none;}
+#footer .category li:first-child{width: 10%}
+#footer .category li:nth-child(2){width: 50%}
+#footer .copyright{font-size: 16px;}
+#footer a{color: #fff;}
+
+
+/* *
 {
     margin: 0;
     padding: 0;
@@ -294,3 +348,4 @@ img.imm {
    color:#59C25E;
    text-align: center;
 }
+ */
