@@ -20,7 +20,8 @@ a{text-decoration: none;}
 .main{width: 100%; padding-bottom: 0; background: #F7FFF7;}
 .green>.container{display: flex; position: relative;}
 .green img{width: 400px; margin: 0 40px;}
-.green .text-box{position: absolute; top: 20%; left: 50%;}
+.green .text-box{position: absolute; top: 30%; left: 50%;}
+.main .text-box{position: absolute; top: 20%; left: 50%;}
 .green .text-box .title{margin-bottom: 30px;}
 .green .text-box .main-title{margin-bottom: 30px;}
 .green .text-box h1{color: #59C25E;}
