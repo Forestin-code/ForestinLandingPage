@@ -40,7 +40,7 @@ a{text-decoration: none;}
 
 /* footer 속성 */
 #footer{width: 100%; padding: 40px 0 60px 0; background: #000; color: #fff;}
-#footer h2{vertical-align: middle; overflow: hidden;}
+#footer h2{vertical-align: middle; overflow: hidden; margin-bottom: 10px;}
 #footer .image_area{display: inline-block; vertical-align: middle;}
 #footer img{width: 40px; margin-right: 14px;}
 #footer h2>a>span{display: inline-block; height: 40px; font-size: 30px;}
