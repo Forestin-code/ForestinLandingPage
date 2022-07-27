@@ -11,13 +11,13 @@ a{text-decoration: none;}
 .container{width: 1080px; margin: 0 auto;}
 
 /* header 속성 */
-#header{width: 100%; padding-top: 20px; background: #F7FFF7;}
+#header{width: 100%; padding-top: 20px; background: #effcef;}
 #header .container{padding: 0 10px;}
 #header img{height: 28px;}
 
 /* green 속성 */
-.green{width: 100%; padding: 60px 0; background: #F7FFF7;}
-.main{width: 100%; padding-bottom: 0; background: #F7FFF7;}
+.green{width: 100%; padding: 60px 0; background: #effcef;}
+.main{width: 100%; padding-bottom: 0;}
 .green>.container{display: flex; position: relative;}
 .green img{width: 400px; margin: 0 40px;}
 .green .text-box{position: absolute; top: 30%; left: 50%;}
